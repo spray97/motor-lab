@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>전동기 탐구 실험실</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <h1>⚡ 전동기 탐구 실험실 <small>영구자석 동기전동기</small></h1>
+  <button id="glossaryBtn" class="btn ghost" aria-haspopup="dialog">📖 용어 사전</button>
+</header>
+
+<nav id="stepNav" class="stepnav" aria-label="학습 단계"></nav>
+
+<main id="stage" class="stage" tabindex="-1"></main>
+
+<dialog id="glossaryDlg" class="dlg">
+  <form method="dialog" class="dlg-head">
+    <h2>📖 용어 사전</h2>
+    <button class="btn ghost" aria-label="닫기">닫기 ✕</button>
+  </form>
+  <div id="glossaryList" class="dlg-body"></div>
+</dialog>
+
+<dialog id="tipDlg" class="dlg small">
+  <form method="dialog" class="dlg-head">
+    <h2 id="tipTitle">쉬운 설명</h2>
+    <button class="btn ghost" aria-label="닫기">닫기 ✕</button>
+  </form>
+  <div id="tipBody" class="dlg-body"></div>
+</dialog>
+
+<script src="js/core.js"></script>
+<script src="js/step1.js"></script>
+<script src="js/step2.js"></script>
+<script src="js/step3.js"></script>
+<script src="js/step4.js"></script>
+<script src="js/step5.js"></script>
+<script src="js/step6.js"></script>
+<script src="js/step7.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
